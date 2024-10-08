@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #BCA693;
+}
+.hero-section {
+    width: 100%;
+    max-height: 864px; 
+    height: 90vh;
+    
+    background-image: url(../img-project-coffee/coffee-hero-img/Hero1.png); 
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+    background-size: cover; 
+}
+
+.hero-section .hero-slogan h2
+{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    
+    padding: 10px 0;
+    font-weight: 500;
+}
+.hero-section .hero-slogan h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 72px; 
+    color: rgb(179, 139, 97);
+    margin-bottom: 10px;
+}
+
+.hero-section .hero-slogan {
+    padding: 10px;
+    position: absolute; 
+    
+    top: 38%;
+    left: 21%;
+    width: 28%;
+    min-height: 150px;
+}
+
+

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+footer .footer-all 
+{
+    font-family: 'Inter', sans-serif;
+}
+
+header .header-all {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+button {
+    cursor: pointer;
+    background-color: rgba(201, 158, 113, 0.8);
+    color:  rgb(28, 24, 20);
+    
+    border: none;
+    border-radius: 3px;
+    font-family: 'Inter', sans-serif;
+    
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 550;
+}

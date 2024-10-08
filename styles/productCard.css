@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: rgba(196, 162, 121, 0.5);
+}
+.prod-card * {
+    color: rgb(28, 24, 20);
+}
+.prod-card {
+    background-color: #f5f5f5ad;
+    padding: 20px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    width: 350px;
+    max-width: 350px;
+}
+
+.prod-card img {
+    display: block; 
+    margin: 0 auto; 
+    
+    width: 280px;
+    height: 280px;
+}
+.prod-card h4,
+.prod-card h5 {
+    padding: 0 5px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+}
+.prod-card p{
+    padding: 0 5px;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+
+}
+.prod-card h4 a {
+    text-decoration: none;
+    font-family: 'inter', sans-serif;
+    font-size: 18px; 
+}
+
+.prod-card form {
+    margin-top: auto;
+}
+
+#addBasket {
+    display: block;
+    margin: 0 auto;
+}

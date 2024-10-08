@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+header {
+    background-color: rgba(28, 24, 20, .90);
+    width: 100%;
+}
+
+header .header-all {
+    width: 80%;
+    max-width: 1600px;
+    /* height: 85px; */
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.nav-header ul li {
+    list-style: none;
+    padding: 20px;
+}
+.nav-header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.nav-header ul li a:hover {
+    color: rgb(201, 158, 113);
+}
+header .nav-header .nav-header-menu {
+    display: flex;
+    gap: 10px;
+}
+header .header-all .header-logo img {
+    display: block;
+    height: 65px;
+    width: 65px;
+}
+header .header-all .search button {
+    display: block;
+    font-size: 35px;
+    border: none;
+    
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+header .header-all .search button:hover {
+    color: rgb(201, 158, 113);
+}
+
+.header-all .nav-header .nav-header-menu li:nth-child(2) {
+    position: relative;
+}
+.header-all .nav-header .nav-header-menu .catalog:hover { 
+    background-color: rgb(201, 158, 113);
+} 
+.header-all .nav-header .nav-header-menu .catalog a:hover { 
+    color: white;
+} 
+
+.header-all .nav-header .nav-header-menu .nav-catalog-list {
+     position: absolute;
+     display: none;
+     
+     width: 100%;
+     top: 100%;
+     left: 0;
+}
+     
+.header-all .nav-header ul li:hover > .nav-catalog-list {
+    display: table;
+    transition: 0.5s;
+}
+
+.header-all .nav-header .nav-header-menu .nav-catalog-list li {
+    background-color: rgba(28, 24, 20, .90);
+}
+
+.header-all .nav-header .nav-header-menu .nav-catalog-list li a:hover {
+    color: rgb(201, 158, 113);
+}

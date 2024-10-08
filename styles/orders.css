@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+     background-color: rgba(196, 162, 121, 0.5);
+}
+.all-orders * {
+    color: rgb(28, 24, 20);
+    font-family: 'Inter', sans-serif;
+}
+
+.all-orders {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+table {
+   border-collapse: collapse;
+   font-size: 15px;
+}
+td {
+    border: 2px solid rgb(28, 24, 20);
+    padding: 5px;
+}
+
+thead td {
+    background-color: rgba(201, 158, 113, 0.8);
+}

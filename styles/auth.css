@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* общие стили для регистрации и входа */
+body {
+     background-color: rgba(196, 162, 121, 0.5);
+}
+.breadcrumbs {
+    margin: 40px 0 30px 100px;
+}
+.breadcrumbs li a::after {
+    content: '/';
+}
+.breadcrumbs li {
+    display: inline;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+.breadcrumbs li a {
+    text-decoration: none;
+    color: rgb(28, 24, 20);
+    font-size: 15px;
+} 
+.breadcrumbs li span {
+    font-size: 15px;
+}
+
+.all-registr * {
+    color: rgb(28, 24, 20);
+    font-family: 'Inter', sans-serif;
+}
+.all-registr {
+    margin-left: 100px;
+}
+
+.all-registr h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.registr {
+    width: 25%;
+    max-width: 470px;
+    margin-bottom: 10px;
+}
+.text-registr {
+    width: 100%;
+    max-width: 470px;
+    height: 45px;
+    padding: 5px;
+    
+    font-size: 15px;
+    border: none;
+    border-bottom: 3px rgba(196, 162, 121, 0.5) solid ;
+    margin-bottom: 4px;
+    
+    outline: none;
+}
+.text-registr:focus {
+    border-color: rgb(28, 24, 20);
+}
+
+.main-registr {
+    min-height: calc(100vh - 65px - 193px);
+}
+
+#btn-registr,
+#btn-auth, 
+#btn-logout
+{
+    margin-top: 20px;
+}
+
+/* для страницы входа */
+.pass-link {
+    display: block;
+    margin-top: 10px;
+}
